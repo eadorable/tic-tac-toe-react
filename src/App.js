@@ -1,9 +1,14 @@
 import './App.css';
+import Game from './Game';
+import Heading from './Heading';
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+
+      <Heading />
+      <Game />
+
     </div>
   );
 }
